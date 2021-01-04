@@ -1,0 +1,52 @@
+body {
+  background-image: url(./blue-snow.png);
+}
+
+.icon::after {
+  content: '';
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: -25px;
+  width: 70px;
+  height: 70px;
+  background-image: url(./tiger.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+h1,
+h2 {
+  font-family: 'Architects Daughter', cursive;
+  margin-bottom: 100px;
+  text-align: center;
+  font-size: 100px;
+}
+.timer {
+  display: flex;
+  justify-content: center;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  background-color: #fff;
+  border-radius: 50%;
+  font-family: 'Indie Flower', cursive;
+
+  box-shadow: 0px 0px 39px -16px rgba(245, 17, 17, 0.75);
+}
+.field:not(:last-child) {
+  margin-right: 50px;
+}
+span[class='value'] {
+  font-size: 100px;
+}
+span[class='label'] {
+  font-size: 25px;
+}
+.span[class='letter'] {
+  display: block;
+}
