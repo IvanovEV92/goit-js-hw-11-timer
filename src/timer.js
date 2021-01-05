@@ -24,7 +24,7 @@ function timing(time) {
   refs.hoursRef.textContent = `${hours}`;
 
   const mins = pad(Math.floor((time % (1000 * 60 * 60)) / (1000 * 60)));
-    refs.minsRef.textContent = `${mins}`;
+  refs.minsRef.textContent = `${mins}`;
 
   const secs = pad(Math.floor((time % (1000 * 60)) / 1000));
   refs.secsRef.textContent = `${secs}`;
